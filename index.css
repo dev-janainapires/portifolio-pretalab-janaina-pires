@@ -8,14 +8,12 @@
     outline: 0;
 }
 
-body {
-    /* Definindo a fonte de todo nosso body */
+body { /* Definindo a fonte de todo nosso body */
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-li {
-    /* retirando as bolinhas das nossas listas */
+li { /* retirando as bolinhas das nossas listas */
     list-style: none;
 }
 
@@ -24,7 +22,7 @@ li {
     display: flex;
     position: fixed; /*Deixa o nosso header fixo*/
     width: 100%; /*Largura*/
-    padding: 8px; /*Espaçamento dos 4 lados*/
+    padding: 10px; /*Espaçamento dos 4 lados*/
     padding-bottom: 12px; /*Espaçamento inferior*/
     padding-top: 12px;/*Espaçamento superior*/
     height: 20px;
@@ -75,16 +73,16 @@ li {
 }
 
 .nome-completo {
-    font-size: 40px;
-    color: #ff4dbc;
+    font-size: 48px;
+    color: rgb(118, 48, 110);
     font-weight: 800;
     height: 50px;
 }
 
 .profissao {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 32px;
-    color: #C6B5D5;
+    color: rgb(173, 98, 238);
 }
 
 .article-lista {
@@ -96,7 +94,7 @@ li {
 
 .topico-principal {
     font-size: 36px;
-    color:  #ff4dbc;
+    color: rgb(89, 41, 2);
 }
 
 .lista-item { 
@@ -110,13 +108,13 @@ li {
 .lista-titulo {
     margin-bottom: 5px;
     font-size: 22px;
-    color: #661e4b;
+    color: rgb(197, 93, 157);
     font-weight: 700;
 }
 
 .lista-local {
     font-size: 18px;
-    color: #2F80ED;
+    color: rgb(46, 84, 134);
 }
 
 .lista-descricao {
@@ -139,14 +137,39 @@ li {
     font-weight: 500;
 }
 
+img {
+    border-radius: 60%;
+}
+
+section {
+    padding: 60px;
+}
+
 .footer {
     background-color: #724796;
     display: flex;
     flex-direction: column;
     width: 100%;
-    line-height: 26px;
+    line-height: 20px;
     margin-top: 2px;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
     text-align: left;
     color: white;
+    align-items: left;
 }
+
+.stile-icon {
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.lista-footer li {
+    color: #FFFF;
+    font-weight: 300px;
+    font-size: 14px;
+} 

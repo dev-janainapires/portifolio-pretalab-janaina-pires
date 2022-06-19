@@ -1,3 +1,14 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "liveServer.settings.CustomBrowser": chrome,
+    "terminal.integrated.ignoreProcessNames": [
+        "starship",
+        "oh-my-posh",
+        "zsh",
+        "git"
+        
+    ],
+    "liveServer.settings.ChromeDebuggingAttachment": true,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": chrome
+    
 }

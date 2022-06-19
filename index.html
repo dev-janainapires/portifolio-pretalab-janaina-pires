@@ -1,20 +1,18 @@
-<!DOCTYPE html>
+<! DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
         <link rel="shortcut icon" href="img/foto-perfil.png">
         <title>Meu Portfólio</title>
-        <meta charset="utf-8">
         <link rel="stylesheet" href="index.css">
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     </head>
     
-    <body>
-       <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
-        <header class="header-menu">
-             <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
-            <nav>
-                 <!-- O Ul e o OL são as listas -->
-                <ul class="lista-menu">
+    <body> 
+        <header class="header-menu"> <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
+            <nav> <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
+                <ul class="lista-menu"> <!-- O Ul e o OL são as listas -->
                     <li>
                         <a href="#formacao">Formação</a>
                     </li>
@@ -52,6 +50,7 @@
 
             <section>
                     <article class="container article-lista">
+                    <article d="formacao" class="container article-lista">
                         <div>
                             <h3 class="topico-principal">Formação</h3>
                         </div>
@@ -59,36 +58,39 @@
                             <ul>
                                 <li>
                                     <p class="lista-titulo">Ciclo Formativo Pretalab</p>
-                                    <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
-                                    <p class="lista-descricao">Formação intensiva em desenvolvedora Front-End, através das aplicações HTML5 e Css3</p>
+                                    <a href="https://www.pretalab.com/formacao" target="_blank" rel = "noopener noreferrer" class="lista-local">Pretalab/Olabi</a>
+                                    <p class="lista-descricao">Formação intensiva em desenvolvimento Front-End, através das aplicações HTML5 e CSS3</p>
                                 </li>
                                 <li>
                                     <p class="lista-titulo">Ciclo Formativo</p>
-                                    <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Colégio Ensino</a>
+                                    <a href="https://www.pretalab.com/formacao" noopener target="_blank" rel = "noopener noreferrer" class="lista-local">C.E.Prof.F.A. Raja Gabaglia</a>
                                     <p class="lista-descricao">Ensino Médio Completo</p>
                                 </li>
                             </ul>
                         </div>
                     </article>
-            </section>
-
+                </section>
+                    
             <section class="wrapper-portfolio">
                 <article class="container article-lista">
+                <article id="portifolio" class="container article-lista"
+                </div>
                     <div>
                         <h3 class="topico-principal">Blog</h3>
                     </div>
-                    <div class="lista-item">
+                <div class="lista-item"
+
                         <ul>
                             <li>
                                 <p class="lista-titulo">Mulheres que fazem história</p>
                                 <p class="subtitulo-lista">Revelo</p>
-                                <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+                                <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" rel = "noopener noreferrer" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
                                 <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
                             </li>
                             <li>
                                 <p class="lista-titulo">Quem Coda BR</p>
                                 <p class="subtitulo-lista">Pretalab</p>
-                                <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem coda br</a>
+                                <a href="https://www.pretalab.com/report-quem-coda" target="_blank" rel = "noopener noreferrer" class="lista-local">Quem coda br</a>
                                 <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
                             </li>
                         </ul>
@@ -97,16 +99,15 @@
             </section>
         </main>
           <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
-        <footer class="container footer">
-            <div>
-                <ul>
+        <footer class="footer">
+            <div class="container">
+                <ul id="contato" class="lista-footer">
                     <!-- aqui temos os nossos icones, dentro da nossa lista -->
-                    <li><i class="fas fa-envelope-square estilo-icon"></i>janapires.dev@gmail.com</li>
-                    <li><i class="fab fa-linkedin estilo-icon"></i>janaina-pires-rj-dev-jr</li>
-                    <li><i class="fab fa-github-square estilo-icon"></i>dev-janainapires</li>
+                    <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:janapires.dev@gmail.com" target="_blank" rel = "noopener noreferrer" class="links"> janapires.dev@gmail.com</a></li>
+                    <li><i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/janaina-pires-rj-dev-jr/" target="_blank" rel = "noopener noreferrer" class="links"> janaina-pires-rj-dev-jr</a></li>
+                    <li><i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/dev-janainapires" target="_blank" rel = "noopener noreferrer" class="links"> dev-janainapires</a></li>
                 </ul>
             </div>
         </footer>
-    </body>
-    
-    </html>
+    </body> 
+</html>
